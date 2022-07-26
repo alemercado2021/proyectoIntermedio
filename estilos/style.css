@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+}
+
+.cartasTiradas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.cartasJugador{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divBtn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 100px;
+
+}
