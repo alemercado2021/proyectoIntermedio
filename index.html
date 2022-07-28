@@ -7,28 +7,28 @@
     <link rel="stylesheet" href="./estilos/style.css">
     <title>INTERMEDIO</title>
 </head>
-<body onload="makeImage();">
+<body onload="makeImage()">
 
-
+    <H1>INTERMEDIO</H1>
 
     <h2>Tus cartas</h2>
 
     <div class="cartasJugador">
         <div class="cartaJugador" id="cartaJugador1"></div>
 
-        <button onclick="nextImage2()">Proxima jugada</button>
+        <button onclick="nextImage2()" id="boton">Proxima jugada</button>
 
         <div class="cartaJugador" id="cartaJugador2"></div>
     </div>
 
-    <H1>INTERMEDIO</H1>
+
     <div class="cartasTiradas">
         <div class="cartaIntermedio" id="cartaIntermedia"></div>
-        <button onclick="nextImage()">Tirar carta</button>
+        <button onclick="nextImage()" id="intermedia">Tirar carta</button>
     </div>
 
     <div class="resultado">
-        <span id="SpanID"></span>
+        <h2 id="SpanID"></h2>
     </div>
     
     <script src="index.js"></script>

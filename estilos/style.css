@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body{
-    background-color: black;
+    background-image: url("https://www.xtrafondos.com/wallpapers/resized/textura-de-pasto-2946.jpg?s=large");
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: antiquewhite;
+    color: black;
 }
 
 .cartasTiradas {
@@ -31,6 +31,14 @@ body{
 }
 
 img{
-    height: 100px;
+    height: 150px;
+    border: 3px solid wheat;
+    border-radius: 5px;
+}
 
+
+@media (min-width: 768px) {
+    img{
+        height: 250px;
+    }
 }
